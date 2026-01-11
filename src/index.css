@@ -1,1 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --color-fall-white: #D4CFCC;
+    --color-fall-cream: #AD9066;
+    --color-fall-green: #645840;
+    --color-fall-brown: #7A4B39;
+    --color-fall-dark: #342923;
+    --color-dark: #000000;
+    --color-dark-muted: #1b1b1d;
+    --color-dark-grey: #2e2e32;
+    --color-brand-cream: #dfdfd6;
+    --color-brand-green: #34a06c;
+    --color-brand-blue: #3485a0;
+    --color-brand-mist: #4dbee3;
+    --color-brand-leaf: #34ab5d;
+    --color-brand-wine: #b60a1f;
+    --color-fall-grey: #98989f;
+    --color-background: var(--color-dark);
+
+    --color-fall-orange: oklch(0.76 0.12 59.1);
+    
+    --font-sans: "Montserrat", system-ui, sans-serif;
+    --font-serif: "Georgia", serif;
+    --font-mono: "Fira Code", monospace;
+}
+
+body {
+    background-color: var(--color-dark);
+    font-family: var(--font-sans);
+    color: var(--color-fall-white);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.text-accent {
+    background: linear-gradient(to right, var(--color-brand-green), var(--color-brand-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
