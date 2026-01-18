@@ -1,13 +1,14 @@
 import ImageOverlayCard from "../components/ImageOverlayCard";
 import journeyImg from '../assets/journey.jpeg';
 import fallImg from '../assets/fall.jpeg';
+import aemImg from '../assets/aem.svg';
 import Header from "../components/Header";
 import Skills, { type Skill } from "../components/Skills";
 
 const skills: Skill[] = [
     {
         name: 'React',
-        logoSrc: '/src/assets/react.svg',
+        logoSrc: 'https://cdn.simpleicons.org/react',
         logoColor: '#61DAFB',
     },
     {
@@ -42,7 +43,7 @@ const skills: Skill[] = [
     },
     {
         name: 'Adobe Experience Manager',
-        logoSrc: '/src/assets/aem.svg',
+        logoSrc: aemImg,
     }
 ]
 

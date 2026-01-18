@@ -1,6 +1,9 @@
-import Header from "../components/Header";
+import Header from '../components/Header';
 import journeyImg from '../assets/journey.jpeg';
-import Skills, { type Skill } from "../components/Skills";
+import Skills, { type Skill } from '../components/Skills';
+import booksImg from '../../src/assets/books.png';
+import engineerImg from '../../src/assets/engineer.png';
+import docImg from '../../src/assets/document.png';
 
 const skills: Skill[] = [
     {
@@ -14,19 +17,18 @@ const skills: Skill[] = [
     {
         name: 'freeCodeCamp',
         logoSrc: 'https://cdn.simpleicons.org/freecodecamp/white',
-        logoColor: '#0A0A23',
     },
     {
         name: 'Fellow Engineers',
-        logoSrc: '/src/assets/engineer.png',
+        logoSrc: engineerImg,
     },
     {
         name: 'Source Documentation',
-        logoSrc: '/src/assets/document.png',
+        logoSrc: docImg,
     },
     {
         name: 'Books',
-        logoSrc: '/src/assets/books.png',
+        logoSrc: booksImg,
     },
     {
         name: 'Google Gemini',
